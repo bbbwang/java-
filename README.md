@@ -1,13 +1,11 @@
 # java学习路线图
 在这里记录我的学习技术栈
 ## java架构师路线
-以hollis大神的java成神之路的大纲为基础改写
-https://blog.csdn.net/hollis_chuang/article/details/87686522
+
 ### java基础
 	面向对象
 	javase基础
 	并发编程
-
 ### java进阶
 	工具
 		技术栈
@@ -48,6 +46,17 @@ https://blog.csdn.net/hollis_chuang/article/details/87686522
 			终结者模式
 			解释器模式
 	网络编程
+		常用协议
+		OSI七层模型
+		TCP/UDP
+		HTTP/HTTPS
+		java RMI，socket，httpclient
+		cookie与session
+		nginx和apache服务器的特性
+		进程间的通讯方式
+		什么是CDN，如何实现
+		DNS
+		代理
 	框架知识
 		spring全家桶
 			spring源码分析
@@ -55,7 +64,114 @@ https://blog.csdn.net/hollis_chuang/article/details/87686522
 		Hibernate
 		MyBatis
 	运维知识
-
+		linux基础知识
+		负载均衡
+		常见服务
+		web容器
+		数据库
+			mysql
+			oracle
+			nosql
+				redis
+				memcache
+				MongoDB
+		存储
+			NFS（DRBD+heartbeat+NFS）
+			Hadoop
+			FastDFS
+			HDFS
+			MFS
+		版本控制
+			svn
+			git
+		监控
+		自动化
+		虚拟化
+			docker
+			k8s
+			vmware
+			openstack
+		devops方案
+			jenkins
+			gitlab
+			svn
+			ELK
+		安全
+			rootkit
+			md5
+### 高级阶段
+	java新特性
+	性能优化
+	线上问题分析
+	编译原理
+	操作系统
+	数据库
+		mysql执行引擎
+		mysql执行计划
+		索引
+		回表
+		sql优化
+		数据库事务和隔离级别
+		编码方式
+		行数统计
+		数据库锁
+		连接
+		数据库准备搭建
+		日志
+		内存数据库
+		分库分表
+		读写分离
+		使用数据库锁、nosql实现分布式锁
+		性能调优
+		数据库连接池
+	数据结构与算法
+		数据结构与算法--总结.xmind
+		数据结构
+			表、栈、队列
+			树
+			图
+			哈希表
+			优先队列（堆）
+		常用算法
+			排序
+			算法设计
+				贪婪算法
+				分治算法
+				动态规划
+				随机算法
+				回溯算法
+			不相交集类
+			图论算法
+	大数据
+	网络安全
+		网络安全技术栈
+			web安全工程师学习路线.xmind
+		工具包
+			渗透工具.xmind
+		Kali Linux
+### 架构阶段
+	架构设计原则
+	分布式
+	领域驱动设计
+	微服务
+	网站性能
+		高性能
+		高可用
+		高并发
+	监控
+	负载均衡
+	DNS
+	CDN
+### 其他
+	云计算
+	搜索引擎
+	区块链
+		比特币
+		以太坊
+	人工智能
+	IOT
+	量子计算
+	AR&VR
 ### 书籍推荐
 	Java进阶系列
 		《深入理解JVM虚拟机》、《Java编程思想》
@@ -91,44 +207,3 @@ https://blog.csdn.net/hollis_chuang/article/details/87686522
 		《重构——改善既有代码的设计》
 		《数据结构与算法（Java版）》
 		《剑指offer》
-
-### 其他
-	云计算
-	搜索引擎
-	区块链
-		比特币
-		以太坊
-	人工智能
-	IOT
-	量子计算
-	AR&VR
-
-### 架构阶段
-	架构设计原则
-	分布式
-	领域驱动设计
-	微服务
-	网站性能
-		高性能
-		高可用
-		高并发
-	监控
-	负载均衡
-	DNS
-	CDN
-
-### 高级阶段
-	java新特性
-	性能优化
-	线上问题分析
-	编译原理
-	操作系统
-	数据库
-	数据结构与算法
-	大数据
-	网络安全
-		网络安全技术栈
-			web安全工程师学习路线.xmind
-		工具包
-			渗透工具.xmind
-		Kali Linux
